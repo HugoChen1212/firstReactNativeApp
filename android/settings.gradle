@@ -1,0 +1,3 @@
+rootProject.name = 'HugoApp'
+
+include ':app'
