@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { View, Text, FlatList } from 'react-native';
+import React, { Component, PropTypes } from 'react';
+import { FlatList ,View, Text } from 'react-native';
 
-import {contacts} from '../config/data';
+import { contacts } from '../config/data';
 import colors from '../config/colors';
 import { ListItem } from '../components/ListItem';
 
