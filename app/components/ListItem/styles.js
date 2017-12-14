@@ -24,5 +24,10 @@ export default StyleSheet.create({
     fontSize: 13,
     color: colors.subtleText,
   },
-
+  chevronContainer: {
+    flex:1,
+  },
+  chevron: {
+    alignSelf: 'flex-end',
+  }
 });
