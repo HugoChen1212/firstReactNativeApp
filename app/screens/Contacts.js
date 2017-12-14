@@ -7,6 +7,9 @@ import { ListItem } from '../components/ListItem';
 
 
 class Contacts extends Component {
+    handleRowPress = (item) => {
+      return null;
+    };
   render() {
     return (
       <FlatList
