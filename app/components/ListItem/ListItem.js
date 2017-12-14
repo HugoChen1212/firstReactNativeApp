@@ -16,7 +16,13 @@ const ListItem = ({ contact, onPress}) => {
         source={ { uri: contact.picture.thumbnail }}
         style={ styles.avatar}
       />
+      <View>
+      <Text> {contact.name.first} {contact.name.last} </Text>
+      <Text> {contact.email}</Text>
+      </View>
     </View>
+
+
     </TouchableHighlight>
     )
 };
