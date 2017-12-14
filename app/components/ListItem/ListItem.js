@@ -19,8 +19,17 @@ const ListItem = ({ contact, onPress}) => {
         style={ styles.avatar}
       />
       <View>
-      <Text> {firstName} {lastName} </Text>
-      <Text> {contact.email}</Text>
+      <Text style={styles.name}> {firstName} {lastName} </Text>
+      <Text style={styles.email}> {contact.email}</Text>
+      </View>
+
+      <View style={styles.chevronContainer}>
+        <Icon name="ios-arrow-forward"
+        size={CHEVRON_SIZE}
+         color={colors.subtleText}
+         style={styles.chevron}
+        />
+
       </View>
     </View>
 
