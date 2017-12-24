@@ -5,7 +5,7 @@ class Details extends Component {
   render() {
     return (
       <View style={{ flex:1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text> Details Screen </Text>
+      <Text> Details Screen</Text>
       </View>
       );
   }
