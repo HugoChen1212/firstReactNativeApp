@@ -6,9 +6,11 @@ import colors from '../config/colors';
 
 class Details extends Component {
   render() {
+      const contact = this.props.navigation.state.params;
+
     return (
       <View style={{ backgroundColor: colors.background }}>
-      <Header />
+      <Header {...contact} />
       </View>
       );
   }
