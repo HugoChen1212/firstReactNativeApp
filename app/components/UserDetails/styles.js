@@ -28,15 +28,22 @@ export default StyleSheet.create({
     backgroundColor: colors.grayBackground,
   },
   actionRow:{
-
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
   },
   actionInfo: {
-
+    flexDirection: 'column',
   },
   actionLabel: {
-
+    fontSize: 12,
+    color: colors.subtleText,
+    marginBottom: 3,
   },
   actionBody: {
-
+    fontSize: 16,
+    color: colors.primaryText,
+    marginBottom: 5,
   },
 });
