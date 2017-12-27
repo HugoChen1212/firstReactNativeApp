@@ -10,7 +10,7 @@ const Header = ({picture, name }) => {
       <Image source={{ uri: picture.large }}
       style={styles.image}
       />
-      <Text>
+      <Text style={styles.name}>
         {capitalizeFirstLetter(name.first)} {capitalizeFirstLetter(name.last)}
       </Text>
     </View>
