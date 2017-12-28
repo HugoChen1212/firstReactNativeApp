@@ -5,4 +5,5 @@ export default {
   rowUnderlay: 'rgba(154, 154, 154, 0.25)',
   border: '#CCCCCC',
   grayBackground: '#f9fafb',
+  link: '#007AFF',
 };

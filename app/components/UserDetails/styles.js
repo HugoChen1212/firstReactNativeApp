@@ -46,4 +46,8 @@ export default StyleSheet.create({
     color: colors.primaryText,
     marginBottom: 5,
   },
+  actionIcons: {
+    flexDirection: 'row',
+    marginLeft: 13,
+  },
 });
