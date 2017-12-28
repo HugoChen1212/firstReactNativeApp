@@ -8,6 +8,15 @@ import { toPhoneNumber } from '../../helpers/string';
 const Actions = ({ email, cell, phone }) => {
   return (
     <View style={styles.actionContainer}>
+    <Row
+      label="email"
+      body={email}
+      action={[
+        onPress: () => null, iosIcon: 'ios-mail', androidIcon: 'md-mail'
+        ]}
+        />
+
+
       <View style={styles.actionRow}>
       <View style={styles.actionInfo}>
         <Text style={styles.actionLabel}> email</Text>
