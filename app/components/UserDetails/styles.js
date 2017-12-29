@@ -39,6 +39,7 @@ export default StyleSheet.create({
   actionLabel: {
     fontSize: 12,
     color: colors.subtleText,
+    //color:'red',
     marginBottom: 3,
   },
   actionBody: {
@@ -49,5 +50,8 @@ export default StyleSheet.create({
   actionIcons: {
     flexDirection: 'row',
     marginLeft: 13,
+  },
+  infoContainer: {
+    paddingVertical: 15,
   },
 });
