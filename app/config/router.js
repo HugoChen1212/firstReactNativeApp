@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-native';
+import { Button, Platform } from 'react-native';
 import { StackNavigator, TabNavigator, DrawerNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Contacts from '../screens/Contacts';
@@ -8,12 +8,19 @@ import NewContact from '../screens/NewContact';
 import Me from '../screens/Me';
 import { capitalizeFirstLetter } from '../helpers/string';
 
+const LeftDrawerButton = ({ navigation }) => {
+  if (Platform.OS === 'android') {
+    return  <Button title="Open" onPress={() => navigation.navigate('DrawerOpen')} />;
+  }
+  return null;
+}
+
 export const ContactsStack =StackNavigator({
   Contacts: {
     screen: Contacts,
-    navigationOptions: ({navigation}) => ({
+    navigationOptions: ({props}) => ({
       title: 'Contacts',
-      headerLeft: <Button title="Open" onPress={() => navigation.navigate('DrawerOpen')} />,
+      headerLeft: <LeftDrawerButton {...props} />,
     }),
   },
     Details: {
@@ -34,9 +41,9 @@ export const NewContactStack = StackNavigator({
     // navigationOptions: {
     //   headerTitle: 'New Contact',
     // },
-  navigationOptions: ({navigation}) => ({
+  navigationOptions: ({props}) => ({
       title: 'New Contact',
-      headerLeft: <Button title="Open" onPress={() => navigation.navigate('DrawerOpen')} />,
+      headerLeft: <LeftDrawerButton {...props} />,
     }),
   },
 });
@@ -47,9 +54,9 @@ export const MeStack = StackNavigator({
     //  navigationOptions: {
     //   title: 'Me',
     // },
-    navigationOptions: ({navigation}) => ({
+    navigationOptions: ({props}) => ({
       title: 'Me',
-      headerLeft: <Button title="Open" onPress={() => navigation.navigate('DrawerOpen')} />,
+      headerLeft: <LeftDrawerButton {...props} />,
     }),
   },
 });
