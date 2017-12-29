@@ -1,8 +1,8 @@
 import React from 'react';
-import { ContactsStack } from './config/router.js';
+import { Tabs, Drawer } from './config/router.js';
 
 const App = () => {
-  return <ContactsStack />;
+  return <Drawer />;
 };
 
 export default App;
