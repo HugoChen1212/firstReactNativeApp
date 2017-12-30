@@ -29,7 +29,7 @@ export const me = {
     value: '37818047-Q',
   },
   picture: {
-    large: 'https://i.imgur.com/GpYt5f2.png',
+    large: 'https://i.imgur.com/kxW9ZgJ.png',
     medium: 'https://randomuser.me/api/portraits/med/men/92.jpg',
     thumbnail: 'https://randomuser.me/api/portraits/thumb/men/92.jpg',
   },
