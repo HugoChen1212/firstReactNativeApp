@@ -9,8 +9,9 @@ This projecdt is self-learning about ReactNative:
 
 # Screenshots
 ![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/contact_list.png)
+![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/new.png)
 ![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/new_contacts.png)
-![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/new_contacts.png)
+![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/me.png)
 
 # Configuration
 ```command line
