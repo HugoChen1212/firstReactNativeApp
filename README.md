@@ -8,9 +8,9 @@ This projecdt is self-learning about ReactNative:
 4. learn how data flow betweeen component to other component
 
 # Screenshots
-![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/Screen%20Shot%202017-12-30%20at%2010.29.50%20PM.png)
-![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/Screen%20Shot%202017-12-30%20at%2010.32.09%20PM.png)
-![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/Screen%20Shot%202017-12-30%20at%2010.32.46%20PM.png)
+![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/contact_list.png)
+![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/new_contacts.png)
+![alt text](https://github.com/HugoChen1212/firstReactNativeApp/blob/master/lib/screenshots/new_contacts.png)
 
 # Configuration
 ```command line
